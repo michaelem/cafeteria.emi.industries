@@ -1,17 +1,20 @@
 * {
-  margin: 0;
-  padding: 0;
-
   font-family: Georgia, Palatino, serif;
 }
 
+html {
+  min-height: -webkit-fill-available;
+}
+
 body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+
   background-color: rgb(253, 245, 241);
   background-image: url("images/footer.png");
   background-position: bottom right;
   background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100vh;
 }
 
 a:link,
@@ -23,30 +26,28 @@ a:hover {
   color: #f90;
 }
 
-#main {
-  position: absolute;
-
-  top: 40px;
-  left: 280px;
-
-  width: 500px;
+.title {
+  
+  text-align: center;
 }
 
-#main h1 {
-  font-size: 40px;
-  font-weight: normal;
+#container {
+  display: flex;
+  justify-content: center;
+}
 
-  line-height: 40px;
+#content {
+  display: flex;
+}
 
-  letter-spacing: -1px;
+#main {
+  width: 800px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 #main p {
-  margin: 20px 0;
-
-  font-size: 15px;
-
-  line-height: 20px;
+  line-height: 22px;
 }
 
 #main ul, #main ol {
@@ -54,9 +55,7 @@ a:hover {
 }
 
 #main li {
-  font-size: 15px;
-
-  line-height: 20px;
+  line-height: 22px;
 }
 
 #main ul li {
@@ -64,12 +63,7 @@ a:hover {
 }
 
 #sidebar {
-  position: absolute;
-
-  top: 40px;
-  left: 20px;
-  width: 200px;
-
+  margin-top: 10px;
   padding: 20px 20px 0 0;
 
   border-right: 1px solid #ccc;
@@ -79,24 +73,18 @@ a:hover {
 
 #sidebar h2 {
   text-transform: uppercase;
-
   font-size: 13px;
-
   color: #333;
-
   letter-spacing: 1px;
-
-  line-height: 20px;
+  line-height: 22px;
 }
 
 #sidebar ul {
   list-style-type: none;
-
   margin: 20px 0;
 }
 
 #sidebar li {
   font-size: 14px;
-
-  line-height: 20px;
+  line-height: 22px;
 }
