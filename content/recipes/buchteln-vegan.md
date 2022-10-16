@@ -6,6 +6,7 @@ author: "Emi"
 ---
 
 ## Zutaten
+
 ### Für den Hefeteig
 * 250ml Hafermilch
 * 500g Weizenmehl Type 550
@@ -13,6 +14,7 @@ author: "Emi"
 * 100 g vegane Butter oder Margarine
 * 80 g Zucker
 * Eine Prise Salz
+
 ### Dazu
 * 50 g vegane Butter oder Margarine
 * Pflaumenmus
@@ -27,18 +29,17 @@ author: "Emi"
 
 4. Den Teig kurz mit der Hand durchkneten und in 12 etwa gleich große Stücke teilen. Eine große Auflaufform bereitstellen (ca. 20 x 30 cm). 
 
-6. Die vegane Butter in einer Pfanne zerlassen. 
+5. Die vegane Butter in einer Pfanne zerlassen. 
 
-7. Jedes Teig-Stück in der Hand ausrollen und mit einem Esslöffel Pflaumenmus füllen. Die Ränder zur Mitte falten und gut verschließen. Dann zu einer Kugel rollen. 
+6. Jedes Teig-Stück in der Hand ausrollen und mit einem Esslöffel Pflaumenmus füllen. Die Ränder zur Mitte falten und gut verschließen. Dann zu einer Kugel rollen. 
 
-8. Den Backofen auf 180°C Umluft vorheizen. 
+7. Den Backofen auf 180°C Umluft vorheizen. 
 
+8. Die Kugeln in der zerlassenen Butter wenden und in die Auflaufform schlichten. Abdecken und noch einmal 20 Minuten gehen lassen. 
 
-9. Die Kugeln in der zerlassenen Butter wenden und in die Auflaufform schlichten. Abdecken und noch einmal 20 Minuten gehen lassen. 
+9. Die Buchteln jetzt für 20-25 Minuten backen. 
 
-10. Die Buchteln jetzt für 20-25 Minuten backen. 
-
-11. Abkühlen lassen und mit Puderzucker bestäuben.
+10. Abkühlen lassen und mit Puderzucker bestäuben.
 
 ## Misc
 Original Rezept von hier: [Vegane Buchteln » Caros Küche | Schnelle und einfache Rezepte](https://caroskueche.de/rezepte/vegane-buchteln/)
