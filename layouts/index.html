@@ -1,0 +1,11 @@
+<% render '/default.html' do %>
+  <% @items.filter { |i| i[:kind] == 'recipe' }.sort_by { |i| i[:created_at] }.reverse.each do |item| %>
+    <div>
+      <h3><%= link_to item[:title], item %></h3>
+      <p>
+        by <%= item[:author] %><br>
+        added on <%= item[:created_at] %>
+      </p>
+    </div>
+  <% end %>
+<% end %>
