@@ -1,7 +1,3 @@
-* {
-  font-family: Georgia, Palatino, serif;
-}
-
 html {
   min-height: -webkit-fill-available;
 }
@@ -15,6 +11,9 @@ body {
   background-image: url("images/footer.png");
   background-position: bottom right;
   background-repeat: no-repeat;
+
+  font-family: Georgia, Palatino, serif;
+  font-size: 16px;
 }
 
 a:link,
@@ -27,7 +26,6 @@ a:hover {
 }
 
 .title {
-  
   text-align: center;
 }
 
@@ -46,16 +44,14 @@ a:hover {
   margin-top: 20px;
 }
 
+
+
 #main p {
   line-height: 22px;
 }
 
 #main ul, #main ol {
   margin: 20px;
-}
-
-#main li {
-  line-height: 22px;
 }
 
 #main ul li {
@@ -73,7 +69,6 @@ a:hover {
 
 #sidebar h2 {
   text-transform: uppercase;
-  font-size: 13px;
   color: #333;
   letter-spacing: 1px;
   line-height: 22px;
@@ -85,6 +80,34 @@ a:hover {
 }
 
 #sidebar li {
-  font-size: 14px;
   line-height: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+  #content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #main {
+    width: none;
+  }
+
+  #sidebar {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-right: none;
+  }
+
+  #sidebar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #sidebar h2 {
+    display: none;
+  }
 }

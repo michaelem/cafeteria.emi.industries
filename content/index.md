@@ -1,4 +1,4 @@
 ---
-title: Recipes
-kind: index
+title: How to contribute?
+kind: page
 ---
