@@ -1,19 +1,16 @@
-html {
-  min-height: -webkit-fill-available;
+html, body {
+  margin: 0;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-
   background-color: rgb(253, 245, 241);
-  background-image: url("images/footer.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-
+  
   font-family: Georgia, Palatino, serif;
   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:link,
@@ -25,42 +22,29 @@ a:hover {
   color: #f90;
 }
 
+#wrapper {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
 .title {
   text-align: center;
 }
 
-#container {
+#content {
+  flex: auto;
   display: flex;
   justify-content: center;
-}
 
-#content {
-  display: flex;
-}
-
-#main {
-  width: 800px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-
-
-#main p {
-  line-height: 22px;
-}
-
-#main ul, #main ol {
-  margin: 20px;
-}
-
-#main ul li {
-  list-style-type: square;
+  padding-top: calc(env(safe-area-inset-top) + 20px);
+  padding-right: calc(env(safe-area-inset-right) + 20px);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 20px);
+  padding-left: calc(env(safe-area-inset-left) + 20px);
 }
 
 #sidebar {
-  margin-top: 10px;
-  padding: 20px 20px 0 0;
+  padding: 30px 20px 0 0;
 
   border-right: 1px solid #ccc;
 
@@ -83,19 +67,50 @@ a:hover {
   line-height: 22px;
 }
 
+#main {
+  width: 800px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#main p {
+  line-height: 22px;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main ul {
+  list-style-type: square;
+}
+
+#footer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: right;
+  justify-items: end;
+}
+
 @media screen and (max-width: 1000px) {
+  #main {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   #content {
     flex-direction: column;
-    width: 100%;
+    justify-content: start;
   }
 
   #main {
-    width: none;
+    padding: 0;
+    width: 100%;
   }
 
   #sidebar {
     padding: 0;
-    margin: 0;
     text-align: center;
     border-right: none;
   }

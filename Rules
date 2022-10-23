@@ -38,4 +38,6 @@ compile '/**/*' do
   write item.identifier.to_s
 end
 
+passthrough '/images/*'
+
 layout '/**/*', :erb

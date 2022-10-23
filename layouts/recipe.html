@@ -1,8 +1,8 @@
 <% render '/default.html' do %>
   <h1><%= item[:title] %></h1>
   <p>
-    by: <%= item[:author] %><br>
-    added on: <%= item[:created_at] %>
+    von: <%= item[:author] %><br>
+    hinzugefügt am: <%= item[:created_at] %>
   </p>
   <%= yield %>
 <% end %>
